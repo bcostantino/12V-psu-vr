@@ -19,7 +19,7 @@ Letting RV = 2064 Ohms, we achieve an output voltage of 12V, however this can be
 
 #### Datasheets
 The following list contains refernces to the datasheets of each unique part used in these designs, as well as the total number of occurrences throughout each block.
-- Adjustable Voltage Regulator \[1x\] - [LM317P](https://datasheets.diptrace.com/st_micro/CD00000455.pdf)
+- Adjustable Voltage Regulator \[1\] - [LM317P](https://datasheets.diptrace.com/st_micro/CD00000455.pdf)
 - Fixed Voltage Regulator \[1\] - [L7812CV](https://datasheets.diptrace.com/st_micro/CD00000444.pdf)
 - Resistors \[2\]- [ALSR01](https://datasheets.diptrace.com/vishay/alsralvr.pdf)
 - Capacitors \[6\]- [NEH220](https://datasheets.diptrace.com/nte/nev_neh.pdf)
