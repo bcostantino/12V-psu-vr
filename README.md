@@ -2,10 +2,16 @@
 ###### Brian Costantino
 
 #### Overview
-This repository featured 3 designs, a 12V DC Power Supply (PSU), a 12V Fixed Linear Voltage Regulator (FIX-VR) and an Adjustable Linear Voltage Regulator (ADJ-VR). Each of these 3 designs are used in the main sheet (Sheet 1). The main module takes a 155V (60 Hz) AC input, and outputs two steady 12V DC supply voltages, one for each of the regulators.
+This repository featured 3 designs, a 12V DC Power Supply (PSU), a 12V Fixed Linear Voltage Regulator (FIX-VR) and an Adjustable Linear Voltage Regulator (ADJ-VR). Each of these 3 designs are used in the main sheet (Sheet 1). The main module takes a 155V (60 Hz) AC input, and outputs two steady 12V DC supply voltages, one for each of the regulators. To utilize either of these regulator modules, follow the usage outlined in the following section.
 
 #### Usage
-To utilize the PSU and FIX-VR modules, no changes need to be made to the schematics. Keep in mind, the specs are fixed and the 12V output cannot be changed once this module is manufactured. On the other hand, when utilizing the ADJ-VR, the output can be changed simply by replacing a resistor. The variable resistor, RV, in sheet ADJ-VR can be selected using the following formula, where R1 is a constant 240 Ohms and Vref = 1.25V for the LM317P adjustable regulator.
+Both devices are to be imported as hierarchical blocks. The sheets __\<FIX-VR\>__ and __\<ADJ-VR\>__ in the main design file __PowerSupplyWithVoltageRegulator.dch__ represent the fixed and adjustable linear voltage regulators respectively.
+
+##### Fixed Regulator
+To utilize the fixed regulator module, no changes need to be made to the schematics. Keep in mind, the specs are fixed and the 12V output cannot be changed once this module is manufactured. 
+
+##### Adjustable Regulator
+On the other hand, when utilizing the adjustable regulator module, the output can be changed simply by replacing a resistor. The variable resistor, RV, in sheet ADJ-VR can be selected using the following formula, where R1 is a constant 240 Ohms and Vref = 1.25V for the LM317P adjustable regulator.
 
 Vout = Vref*(1+(RV/R1))
 
