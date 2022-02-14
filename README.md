@@ -12,9 +12,9 @@ Vout = Vref*(1+(RV/R1))
 With RV = 2064 Ohms, the output voltage is 12V, however this can be changed to meet other supply voltage requirements.
 
 #### Datasheets
-Adjustable Voltage Regulator - [LM317P](https://datasheets.diptrace.com/st_micro/CD00000455.pdf)
-Fixed Voltage Regulator - [L7812CV](https://datasheets.diptrace.com/st_micro/CD00000444.pdf)
-Resistors - [ALSR01](https://datasheets.diptrace.com/vishay/alsralvr.pdf)
-Capacitors - [NEH220](https://datasheets.diptrace.com/nte/nev_neh.pdf)
+- Adjustable Voltage Regulator - [LM317P](https://datasheets.diptrace.com/st_micro/CD00000455.pdf)
+- Fixed Voltage Regulator - [L7812CV](https://datasheets.diptrace.com/st_micro/CD00000444.pdf)
+- Resistors - [ALSR01](https://datasheets.diptrace.com/vishay/alsralvr.pdf)
+- Capacitors - [NEH220](https://datasheets.diptrace.com/nte/nev_neh.pdf)
 
 
