@@ -2,7 +2,7 @@
 ##### Brian Costantino
 
 ### Overview
-This repository featured 3 designs, a 12V DC Power Supply (PSU), a 12V Fixed Linear Voltage Regulator (FIX-VR) and an Adjustable Linear Voltage Regulator (ADJ-VR). Each of these 3 designs are used in the main sheet (Sheet 1). The main module takes a 155V (60 Hz) AC input, and outputs two steady 12V DC supply voltages, one for each of the regulators. To utilize either of these regulator modules, follow the usage outlined in the following section.
+This repository featured 3 designs, a AC to 12V DC transformer <em>\<XFMR\></em>, a 12V Fixed Linear Voltage Regulator <em>\<FIX-VR\></em> and an Adjustable Linear Voltage Regulator <em>\<ADJ-VR\></em>. Each of these 3 designs are used in the main sheet (Sheet 1). The main module takes a 155V (60 Hz) AC input, and outputs two regulated 12V DC supply voltages, one for each of the regulators. To utilize either of these regulator modules, follow the usage outlined in the following section.
 
 ### Usage
 Both devices are to be imported as hierarchical blocks. The sheets <em>\<FIX-VR\></em> and <em>\<ADJ-VR\></em> in the main design file <em>PowerSupplyWithVoltageRegulator.dch</em> represent the fixed and adjustable linear voltage regulators respectively. These sheets can be copied and pasted into your project, and imported as hierarchical blocks.
