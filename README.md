@@ -16,5 +16,6 @@ With RV = 2064 Ohms, the output voltage is 12V, however this can be changed to m
 - Fixed Voltage Regulator - [L7812CV](https://datasheets.diptrace.com/st_micro/CD00000444.pdf)
 - Resistors - [ALSR01](https://datasheets.diptrace.com/vishay/alsralvr.pdf)
 - Capacitors - [NEH220](https://datasheets.diptrace.com/nte/nev_neh.pdf)
-
-
+- Diodes - [1N4532](https://datasheets.diptrace.com/philips-nxp/1N4531.pdf)
+- Transformer - [166E12](https://datasheets.diptrace.com/transformers/5c0018-19.pdf)
+- Rectifier - [DBL202G](https://datasheets.diptrace.com/diodes_bridge/DBL201G%20SERIES_J15.pdf)
